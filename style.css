@@ -1,0 +1,97 @@
+body {
+  color:rgba(40,40,40,1.0);
+  background-color:rgb(240,240,240);
+  font-family:'Times New Roman', Times, serif;
+  font-size:small;
+  line-height:16px;
+  letter-spacing:10px;
+  font-weight:bold;
+}
+h1 {
+    color:#000000;
+    font-size:30px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:2px;
+}
+h2 {
+    color:#38A3A5;
+    font-size:16px;
+
+    letter-spacing:0px;
+   }
+p {
+  font-family:monospace; font-size:16px; text-align:center;
+}
+a {
+  color:#9E7777;
+  text-decoration: none;
+  letter-spacing:2px;
+  text-align:center;
+  font-weight:bold;
+}
+a:hover {color: rgb(60, 194, 60);}
+
+.image-rounded{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+}
+.btn-blue{
+background-color: #5aa7ee;
+color: rgb(255, 255, 255);
+padding: 15px 20px;
+border-radius: 4px;
+
+}
+.btn-blue:hover{
+  color:black;
+  background-color:#e25757}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+.social-icon {
+font-size: 32px;
+color: rgb(220,220,220);
+margin: 8px 24px;
+}
+
+.social-icon:hover {
+color: rgb(195, 180, 180);
+}
+.card-first {
+background-color: white;
+padding: 8px;
+box-shadow: 30px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 5%;
+text-align: center;
+}
+.card-second{
+/*border: 4px solid red;*/
+background-color: white;
+padding: 8px;
+box-shadow: 30px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 5%;
+text-align: center;
+}
+.card-third{
+
+background-color: white;
+padding: 8px;
+box-shadow: 30px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 5%;
+text-align: center;
+}
